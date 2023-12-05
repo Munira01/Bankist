@@ -12,6 +12,10 @@
     />
     <link rel="stylesheet" href="style.css" />
     <link rel="stylesheet" href="queries.css" />
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+
     <script
       type="module"
       src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
@@ -25,6 +29,7 @@
   </head>
   <body>
     <nav class="nav">
+      <input type="checkbox" id="check" class="nav__input">
       <img src="img/logo.png" alt="Bankist logo" class="nav__logo" id="logo" />
       <ul class="nav__links mob-nav__links">
         <li class="nav__item">
@@ -43,14 +48,14 @@
         </li>
       </ul>
 
-      <input type="checkbox" id="check" class="nav__input">
+      
 
       <label for="check" class="nav__label1">
-        <ion-icon class="menu" name="menu-outline"></ion-icon>
+        <i class="fa-solid fa-bars" id="menu"></i>
       </label>
 
       <label for="check" class="nav__label2">
-          <ion-icon class="closeButton hide" name="close-outline"></ion-icon>
+        <i class="fa-solid fa-x" id="hide"></i>
       </label>
 
       
